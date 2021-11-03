@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(to top left, rgb(0, 141, 213) 50%, white 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

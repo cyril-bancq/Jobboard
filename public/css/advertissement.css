@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(to top left, rgb(0, 141, 213) 50%, white 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* ######################### */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.container_view
+{
+    width: 15vw;
+    height: 10vh;
+    position:absolute;
+    /* left: 50%;
+    top: 15%; */
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid #008dd5;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view
+{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 1%;
+    background: transparent;
+    border: 2px solid #008dd5;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.view:hover
+{
+    transition: 1s ease-in-out;
+    background: #008dd5;
+}
+
+.view span 
+{
+    color: #4F95DA;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* ######################### */
+
+.search_form
+{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+}
+
+.page
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+/* ######################### */
+
+.global_ads
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-header, .card-footer
+{
+    border: 2px solid #008dd5;
+}
+.advertissement
+{
+    margin-top: 1%;
+    width: 40%;
+    border: 2px solid #008dd5;
+}
+
+.ads
+{
+    border: 2px solid #008dd5;
+}
+
+/* ######################### */
+
+.global_info
+{
+    display: none;
+    width: 40%;
+    height: auto;
+    border: 2px solid #008dd5;
+    background-color: white;
+}
+
+.body_info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid #008dd5;
+    background-color: white;
+    font-weight: bold;
+}
+
+.info_ads
+{
+    border: 2px solid #008dd5;
+    border-top: none;
+    border-bottom: none;
+    background-color: white;
+}
+
+.info_companies
+{
+    border: 2px solid #008dd5;
+    border-top: none;
+    background-color: white;
+}

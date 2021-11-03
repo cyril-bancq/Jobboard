@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to top left, rgb(0, 141, 213) 50%, white 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 1%;
+    max-width: auto;
+    border: 2px solid #008dd5;
+    background-color: white;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -6%;
+    margin-left: 80%;
+}
+
+.form_text {
+    color: #008dd5;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: #008dd5;
+}
+
+#form_buttons {
+    margin-top: 20px;
+}
+
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
